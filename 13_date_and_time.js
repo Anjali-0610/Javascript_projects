@@ -19,7 +19,7 @@ console.log(mydate2.toString())
 let mydate3=new Date("01-14-2023")         //order or format of date
 console.log(mydate3.toDateString())
 
-//timestamp will show the value in milliseconds from the 1 jan 1970 to the corrent time
+//timestamp will show the value in milliseconds from  1 jan 1970 to the current time
 let mytimestamp=Date.now()
 console.log(mytimestamp)
 
