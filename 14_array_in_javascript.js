@@ -9,6 +9,9 @@
 const myarr=[0,1,2,3,3,4,5]
 const myarr1=["anjali","akshita","anushka"]
 
+myarr[7]=9
+console.log(myarr)
+
 myarr.push(6)
 myarr.push(7)
 myarr.pop()

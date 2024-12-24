@@ -48,3 +48,8 @@ const obj6={...obj1,...obj2}
 
 //for displaying keys and values of any object
 console.log(Object.keys(user))
+console.log(Object.values(user))
+console.log(Object.entries(user))     //for representation in array format
+
+//for checking existence
+console.log(user.hasOwnProperty('loggedin'))
