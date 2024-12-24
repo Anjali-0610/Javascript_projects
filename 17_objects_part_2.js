@@ -42,3 +42,9 @@ console.log(obj1)
 const obj4=Object.assign(obj1,obj2)       //while here obj1 will be target and values of object one will be changed
 console.log(obj4)                         //here obj4===obj1
 console.log(obj1)
+
+//another method to merge by separte
+const obj6={...obj1,...obj2}
+
+//for displaying keys and values of any object
+console.log(Object.keys(user))
