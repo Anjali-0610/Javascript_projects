@@ -15,7 +15,6 @@ console.log(calculate_price2(200,400,500,600,700))
 
 
 
-
 //objects passing in functions
 function objecthandler(anyObj)
 {
@@ -29,6 +28,7 @@ objecthandler(user)
 objecthandler({username:"akshita",     //another method to pass object
     price:"4999"
 })
+
 
 
 //array passing in function
